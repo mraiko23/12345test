@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Messenger - Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chat-container">
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <div class="avatar" id="user-avatar">U</div>
+          <span id="user-name">User</span>
+          <div id="online-count" class="online-count">0 online</div>
+        </div>
+        <div class="rooms-list" id="rooms-list">
+          <!-- Rooms will be loaded here -->
+        </div>
+        <button id="logout-btn">Logout</button>
+      </div>
+      <div class="main-chat">
+        <div class="chat-header">
+          <div class="room-info">
+            <h1 id="room-name">General Chat</h1>
+            <span id="online-count">0 online</span>
+          </div>
+          <div class="call-buttons">
+            <button class="call-btn voice-call" id="voice-call-btn" title="Voice Call">📞</button>
+            <button class="call-btn video-call" id="video-call-btn" title="Video Call">📹</button>
+          </div>
+        </div>
+        <div id="chat-messages"></div>
+        <form id="message-form" class="message-form">
+          <input type="text" id="message-input" placeholder="Type your message..." required>
+          <button type="submit" id="send-btn">📤</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

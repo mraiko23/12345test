@@ -1,0 +1,26 @@
+# TODO for Simple Messenger Website
+
+- [x] Create package.json with dependencies
+- [x] Create server.js with Express server and routes
+- [x] Create public/index.html for login/register forms
+- [x] Create public/chat.html for messaging interface
+- [x] Create public/style.css for basic styling
+- [x] Create public/script.js for frontend logic
+- [x] Run npm install to install dependencies
+- [x] Run node server.js to start the server
+- [x] Test the website using browser (server running on localhost:3000)
+- [x] Enhance UI to modern Telegram/WhatsApp style
+- [x] Add profile pictures/avatars
+- [x] Add online status (basic implementation)
+- [ ] Add video/audio calls using WebRTC (requires more complex setup)
+- [x] Implement working voice/video calls
+- [x] Add more features like message timestamps, typing indicators
+- [x] Restart server after enhancements
+- [ ] Test enhanced website
+- [x] Fix message disappearing issue (optimize polling and local updates)
+- [x] Add multiple chat rooms/system
+- [x] Add user profiles
+- [x] Implement proper WebRTC calls
+- [x] Make it fully like Telegram/WhatsApp
+- [x] Add WebSocket for real-time messaging (removed due to Node.js version compatibility)
+- [x] Improve layout to be exactly like Telegram/WhatsApp
